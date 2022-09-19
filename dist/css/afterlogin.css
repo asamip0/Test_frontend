@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background: #E5E7EB;
+    position: relative;
+    display: flex;
+}
+
+#menu {
+    background: #111827;
+    width: 300px;
+    height: 100%;
+}
+
+#menu .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 30px 0 0 30px;
+}
+
+#menu .logo img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+#menu .items {
+    margin-top: 40px;
+}
+
+#menu .items li {
+    list-style: none;
+    padding: 15px 0;
+    transition: 0.3s ease;
+}
+
+#menu .items li:hover {
+    background: #253047;
+    cursor: pointer;
+}
+
+
+/* #menu .items li :nth-child(1) {
+    border-left: 4px solid #fff;
+} */
+
+#menu .items li i {
+    color: rgb(red, green, blue);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 10px 0 25px;
+}
+
+#menu .items li:hover i,
+#menu .items li:hover a {
+    color: #f3f4f6;
+}
+
+#menu .items li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 300px;
+    transition: 0.3s ease;
+}
+
+#interface {
+    width: calc(100%);
+}
+
+#interface .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 30px;
+    border-bottom: 3px solid #594ef7;
+}
+
+#interface .navigation .search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #d7dbe6;
+    border-radius: 4px;
+}
+
+#interface .navigation .search i {
+    margin-right: 14px;
+}
+
+#interface .navigation .search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+#interface .navigation .profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#interface .navigation .profile i {
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#interface .navigation .profile img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.i-name {
+    color: #444a53;
+    padding: 30px 30px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.values {
+    padding: 30px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.values .val-box {
+    background: #fff;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.values .val-box i {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: #444a53;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.values .val-box :nth-child(1) i {
+    background: #594ef7;
+}
+
+.values .val-box :nth-child(1) i {
+    background: #594ef7;
+}
+
+.values .val-box :nth-child(1) i {
+    background: #594ef7;
+}
+
+.values .val-box :nth-child(1) i {
+    background: #594ef7;
+}
+
+.values .val-box h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.values .val-box span {
+    font-size: 15px;
+    color: #828997;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #adacac;
+}
+
+
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+} */
+
+
+/* .header_fixed {
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid #dddddd;
+}
+
+.header_fixed thead th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: #e6e7e8;
+    font-size: 15px;
+} */
+
+
+/* 
+th,
+td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-size: 14px;
+} */
+
+
+/* td img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 5px solid #e6e7e8;
+} */
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #edeef1;
+}
+
+tr:hover td {
+    color: #c0e4d1;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: #e6e7e8;
+}
+
+td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: #e6e7e8;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.header_fixed {
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    /* border: solid #dddddd; */
+}
+
+.header_fixed thead th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: #e6e7e8;
+    font-size: 15px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    font-size: 14px;
+    align-items: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #edeef1;
+}
+
+tr:hover td {
+    color: #44b478;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: #e6e7e8;
+}
+
+td button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: #e6e7e8;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(246, 249, 238);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+h2 {
+    text-align: right;
+    font: inherit;
+    color: thistle;
+}
